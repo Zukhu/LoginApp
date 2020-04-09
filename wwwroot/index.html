@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Login App">
+        <meta name="author" content="zukhu">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/wwwroot/css/mystyle.css">
+        <script src="/wwwroot/js/myscript.js"></script>
+        <title>LoginApp</title>
+    </head>
+    <body>
+        <div id = "container">
+            <header id="header">
+                <h1 id="title">Zukhu's Crew</h1>
+                <p id="description">
+                    Fill this form to be part of the amazing Zukhu's crew, 3-time world champion in sofa lifting
+                </p>
+            </header>
+            <form id = "login-form">
+                <div class="form-group">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" class="input" id="email" placeholder="Enter your email" required>
+                    <label for="password" id="password-label">Password</label>
+                    <input type="password" class="input" id="password" placeholder="Password" required>
+                </div>
+                <div class = "button-class">
+                    <button id="login-button">Login</button>
+                    <button id = "cancel-button">Cancel</button>
+                </div>
+                <div id = "notregistered">
+                    <p>Still not registered? Click <a href="#" id="register-link">here</a></p>
+                </div>
+            </form>
+        </div>
+        <footer id="author-id">
+            <small>Zukhu © 2020</small>
+        </footer>
+    </body>
+</html>
